@@ -111,9 +111,9 @@ Sandeep Kumar
 B.Tech CSE — Central University of Jammu
 Passionate about AI, Computer Vision, and HealthTech innovations.
 
-📧 Email: [your.email@example.com
+📧 Email: sandeepkumar6200187840@gmail.com
 ]
-🌐 GitHub: https://github.com/your-username
+🌐 GitHub: https://github.com/Sandeep37-s
 
 🪪 License
 
@@ -122,4 +122,5 @@ This project is licensed under the MIT License – you’re free to use, modify,
 ⭐ Show Support
 
 If you like this project, please ⭐ the repo to support development!
+
 
