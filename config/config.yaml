@@ -1,0 +1,62 @@
+video:
+  source: 0
+  width: 640
+  height: 480
+  fps: 15
+
+
+preprocess:
+  illumination_normalization: "gray_world"   # gray_world | retinex | none
+  blur_min_laplacian: 60.0                   # below => too blurry
+  min_face_ratio: 0.12                       # face bbox area / frame area
+  min_light_L_mean: 40.0                     # too dark if below
+
+zones:
+  # pixel padding around landmarks (in % of inter-pupil distance)
+  pad_pct: 0.35
+
+features:
+  # sclera yellowness (LAB b* high / HSV hue in yellow range)
+  sclera_b_min: 140
+  sclera_h_min: 20
+  sclera_h_max: 65
+
+  # skin pallor (LAB L* high & b* low)
+  cheek_L_min_pale: 180
+  cheek_b_max_pale: 130
+
+  # periorbital darkness: under-eye L* difference vs cheek baseline
+  eye_bag_L_delta_min: 18
+
+decision:
+  # per-condition rule weights to compute confidence [0..1]
+  weights:
+    jaundice:
+      sclera_b_score: 0.55
+      sclera_h_score: 0.45
+    anemia:
+      cheek_L_score: 0.70
+      cheek_b_score: 0.30
+    fatigue:
+      eye_bag_delta_score: 0.80
+      brightness_score: 0.20
+
+  thresholds:
+    jaundice: 0.60
+    anemia: 0.60
+    fatigue: 0.60
+
+  min_quality_ok: true         # require quality checks to pass
+  fallback_label: "Unable to assess"
+
+smoothing:
+  method: "ema"                # ema | median
+  ema_alpha: 0.35
+  window: 5
+
+explainability:
+  overlay_alpha: 0.35
+  colors:
+    jaundice: [0, 255, 255]    # BGR yellow
+    anemia:   [255, 255, 255]  # BGR white
+    fatigue:  [0, 0, 255]      # BGR red

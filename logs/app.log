@@ -1,0 +1,807 @@
+2025-11-30 16:05:22,739 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-30 16:05:22,743 INFO [33mPress CTRL+C to quit[0m
+2025-11-30 16:05:22,751 INFO  * Restarting with stat
+2025-11-30 16:05:36,498 WARNING  * Debugger is active!
+2025-11-30 16:05:36,505 INFO  * Debugger PIN: 449-435-680
+2025-11-30 16:05:42,625 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 46}
+2025-11-30 16:05:42,625 INFO 127.0.0.1 - - [30/Nov/2025 16:05:42] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:06:39,298 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 21}
+2025-11-30 16:06:39,298 INFO 127.0.0.1 - - [30/Nov/2025 16:06:39] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:07:39,286 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 16}
+2025-11-30 16:07:39,290 INFO 127.0.0.1 - - [30/Nov/2025 16:07:39] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:08:39,291 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 20}
+2025-11-30 16:08:39,291 INFO 127.0.0.1 - - [30/Nov/2025 16:08:39] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:09:10,046 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 29}
+2025-11-30 16:09:10,046 INFO 127.0.0.1 - - [30/Nov/2025 16:09:10] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:09:11,366 INFO 127.0.0.1 - - [30/Nov/2025 16:09:11] "GET / HTTP/1.1" 200 -
+2025-11-30 16:09:11,575 INFO 127.0.0.1 - - [30/Nov/2025 16:09:11] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:09:11,764 INFO 127.0.0.1 - - [30/Nov/2025 16:09:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:09:16,874 INFO pred {'quality': 'Face too small', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 68}
+2025-11-30 16:09:16,874 INFO 127.0.0.1 - - [30/Nov/2025 16:09:16] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:09:22,291 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 16}
+2025-11-30 16:09:22,291 INFO 127.0.0.1 - - [30/Nov/2025 16:09:22] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:09:27,290 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 19}
+2025-11-30 16:09:27,290 INFO 127.0.0.1 - - [30/Nov/2025 16:09:27] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:09:31,887 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 39}
+2025-11-30 16:09:31,887 INFO 127.0.0.1 - - [30/Nov/2025 16:09:31] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:09:36,881 INFO pred {'quality': 'Too blurry', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 44}
+2025-11-30 16:09:36,881 INFO 127.0.0.1 - - [30/Nov/2025 16:09:36] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:09:41,886 INFO pred {'quality': 'Face too small', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 69}
+2025-11-30 16:09:41,888 INFO 127.0.0.1 - - [30/Nov/2025 16:09:41] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:09:46,882 INFO pred {'quality': 'Face too small', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 58}
+2025-11-30 16:09:46,882 INFO 127.0.0.1 - - [30/Nov/2025 16:09:46] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:09:51,864 INFO pred {'quality': 'Face too small', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 66}
+2025-11-30 16:09:51,872 INFO 127.0.0.1 - - [30/Nov/2025 16:09:51] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:09:56,907 INFO pred {'quality': 'Face too small', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 54}
+2025-11-30 16:09:56,909 INFO 127.0.0.1 - - [30/Nov/2025 16:09:56] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:10:01,883 INFO pred {'quality': 'Face too small', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 69}
+2025-11-30 16:10:01,884 INFO 127.0.0.1 - - [30/Nov/2025 16:10:01] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:10:06,859 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 36}
+2025-11-30 16:10:06,859 INFO 127.0.0.1 - - [30/Nov/2025 16:10:06] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:10:11,865 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 36}
+2025-11-30 16:10:11,869 INFO 127.0.0.1 - - [30/Nov/2025 16:10:11] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:10:16,840 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 27}
+2025-11-30 16:10:16,840 INFO 127.0.0.1 - - [30/Nov/2025 16:10:16] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:10:21,848 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 30}
+2025-11-30 16:10:21,848 INFO 127.0.0.1 - - [30/Nov/2025 16:10:21] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:10:26,863 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 39}
+2025-11-30 16:10:26,866 INFO 127.0.0.1 - - [30/Nov/2025 16:10:26] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:10:31,832 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 33}
+2025-11-30 16:10:31,832 INFO 127.0.0.1 - - [30/Nov/2025 16:10:31] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:10:36,850 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 43}
+2025-11-30 16:10:36,853 INFO 127.0.0.1 - - [30/Nov/2025 16:10:36] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:10:41,850 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 37}
+2025-11-30 16:10:41,853 INFO 127.0.0.1 - - [30/Nov/2025 16:10:41] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:10:46,846 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 25}
+2025-11-30 16:10:46,861 INFO 127.0.0.1 - - [30/Nov/2025 16:10:46] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:10:51,843 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 35}
+2025-11-30 16:10:51,843 INFO 127.0.0.1 - - [30/Nov/2025 16:10:51] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:10:56,847 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 40}
+2025-11-30 16:10:56,856 INFO 127.0.0.1 - - [30/Nov/2025 16:10:56] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:11:01,880 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 54}
+2025-11-30 16:11:01,883 INFO 127.0.0.1 - - [30/Nov/2025 16:11:01] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:11:06,885 INFO pred {'quality': 'Face too small', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 74}
+2025-11-30 16:11:06,885 INFO 127.0.0.1 - - [30/Nov/2025 16:11:06] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:11:11,861 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 53}
+2025-11-30 16:11:11,865 INFO 127.0.0.1 - - [30/Nov/2025 16:11:11] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:11:17,008 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 187}
+2025-11-30 16:11:17,011 INFO 127.0.0.1 - - [30/Nov/2025 16:11:17] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:11:21,865 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 40}
+2025-11-30 16:11:21,871 INFO 127.0.0.1 - - [30/Nov/2025 16:11:21] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:11:26,846 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 41}
+2025-11-30 16:11:26,846 INFO 127.0.0.1 - - [30/Nov/2025 16:11:26] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:11:31,931 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 39}
+2025-11-30 16:11:31,931 INFO 127.0.0.1 - - [30/Nov/2025 16:11:31] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:11:36,854 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 39}
+2025-11-30 16:11:36,854 INFO 127.0.0.1 - - [30/Nov/2025 16:11:36] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:11:41,891 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 46}
+2025-11-30 16:11:41,894 INFO 127.0.0.1 - - [30/Nov/2025 16:11:41] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:11:46,866 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 49}
+2025-11-30 16:11:46,866 INFO 127.0.0.1 - - [30/Nov/2025 16:11:46] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:11:51,859 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 51}
+2025-11-30 16:11:51,861 INFO 127.0.0.1 - - [30/Nov/2025 16:11:51] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:11:56,849 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 39}
+2025-11-30 16:11:56,850 INFO 127.0.0.1 - - [30/Nov/2025 16:11:56] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:12:01,852 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 33}
+2025-11-30 16:12:01,852 INFO 127.0.0.1 - - [30/Nov/2025 16:12:01] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:13:44,731 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-30 16:13:44,731 INFO [33mPress CTRL+C to quit[0m
+2025-11-30 16:13:44,731 INFO  * Restarting with stat
+2025-11-30 16:14:17,180 WARNING  * Debugger is active!
+2025-11-30 16:14:17,195 INFO  * Debugger PIN: 449-435-680
+2025-11-30 16:14:25,166 INFO 127.0.0.1 - - [30/Nov/2025 16:14:25] "GET / HTTP/1.1" 200 -
+2025-11-30 16:14:25,527 INFO 127.0.0.1 - - [30/Nov/2025 16:14:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:14:25,799 INFO 127.0.0.1 - - [30/Nov/2025 16:14:25] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:14:30,610 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 49}
+2025-11-30 16:14:30,610 INFO 127.0.0.1 - - [30/Nov/2025 16:14:30] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:14:35,647 INFO pred {'quality': 'Too blurry', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 74}
+2025-11-30 16:14:35,649 INFO 127.0.0.1 - - [30/Nov/2025 16:14:35] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:14:40,626 INFO pred {'quality': 'Face too small', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 62}
+2025-11-30 16:14:40,627 INFO 127.0.0.1 - - [30/Nov/2025 16:14:40] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:14:45,649 INFO pred {'quality': 'Face too small', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 68}
+2025-11-30 16:14:45,656 INFO 127.0.0.1 - - [30/Nov/2025 16:14:45] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:14:50,616 INFO pred {'quality': 'Face too small', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 54}
+2025-11-30 16:14:50,616 INFO 127.0.0.1 - - [30/Nov/2025 16:14:50] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:14:55,635 INFO pred {'quality': 'Face too small', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 59}
+2025-11-30 16:14:55,638 INFO 127.0.0.1 - - [30/Nov/2025 16:14:55] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:15:00,615 INFO pred {'quality': 'Face too small', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 53}
+2025-11-30 16:15:00,624 INFO 127.0.0.1 - - [30/Nov/2025 16:15:00] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:15:05,665 INFO pred {'quality': 'Face too small', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 79}
+2025-11-30 16:15:05,667 INFO 127.0.0.1 - - [30/Nov/2025 16:15:05] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:15:11,411 INFO pred {'quality': 'Face too small', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 94}
+2025-11-30 16:15:11,414 INFO 127.0.0.1 - - [30/Nov/2025 16:15:11] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:15:12,472 INFO 127.0.0.1 - - [30/Nov/2025 16:15:12] "GET / HTTP/1.1" 200 -
+2025-11-30 16:15:12,570 INFO 127.0.0.1 - - [30/Nov/2025 16:15:12] "GET /static/style.css HTTP/1.1" 200 -
+2025-11-30 16:15:12,625 INFO 127.0.0.1 - - [30/Nov/2025 16:15:12] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:15:12,736 INFO 127.0.0.1 - - [30/Nov/2025 16:15:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-30 16:15:16,425 INFO pred {'quality': 'Too blurry', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 131}
+2025-11-30 16:15:16,428 INFO 127.0.0.1 - - [30/Nov/2025 16:15:16] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:15:18,224 INFO pred {'quality': 'Too blurry', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 89}
+2025-11-30 16:15:18,226 INFO 127.0.0.1 - - [30/Nov/2025 16:15:18] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:15:21,361 INFO pred {'quality': 'Face too small', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 66}
+2025-11-30 16:15:21,361 INFO 127.0.0.1 - - [30/Nov/2025 16:15:21] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:15:22,772 INFO pred {'quality': 'Too blurry', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 76}
+2025-11-30 16:15:22,773 INFO 127.0.0.1 - - [30/Nov/2025 16:15:22] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:15:26,437 INFO pred {'quality': 'Too blurry', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 115}
+2025-11-30 16:15:26,438 INFO 127.0.0.1 - - [30/Nov/2025 16:15:26] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:15:28,342 INFO pred {'quality': 'Too blurry', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 57}
+2025-11-30 16:15:28,344 INFO 127.0.0.1 - - [30/Nov/2025 16:15:28] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:15:31,651 INFO pred {'quality': 'Too blurry', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 215}
+2025-11-30 16:15:31,660 INFO 127.0.0.1 - - [30/Nov/2025 16:15:31] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:15:33,336 INFO pred {'quality': 'Too blurry', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 63}
+2025-11-30 16:15:33,336 INFO 127.0.0.1 - - [30/Nov/2025 16:15:33] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:15:36,352 INFO pred {'quality': 'Too blurry', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 50}
+2025-11-30 16:15:36,352 INFO 127.0.0.1 - - [30/Nov/2025 16:15:36] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:15:38,367 INFO pred {'quality': 'Too blurry', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 50}
+2025-11-30 16:15:38,369 INFO 127.0.0.1 - - [30/Nov/2025 16:15:38] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:15:41,398 INFO 127.0.0.1 - - [30/Nov/2025 16:15:41] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:15:42,781 INFO 127.0.0.1 - - [30/Nov/2025 16:15:42] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:15:43,928 INFO 127.0.0.1 - - [30/Nov/2025 16:15:43] "GET / HTTP/1.1" 200 -
+2025-11-30 16:15:43,998 INFO 127.0.0.1 - - [30/Nov/2025 16:15:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:15:44,103 INFO 127.0.0.1 - - [30/Nov/2025 16:15:44] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:15:46,348 INFO 127.0.0.1 - - [30/Nov/2025 16:15:46] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:15:49,112 INFO 127.0.0.1 - - [30/Nov/2025 16:15:49] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:15:51,595 INFO 127.0.0.1 - - [30/Nov/2025 16:15:51] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:15:54,175 INFO 127.0.0.1 - - [30/Nov/2025 16:15:54] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:15:55,668 INFO 127.0.0.1 - - [30/Nov/2025 16:15:55] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:15:59,315 INFO 127.0.0.1 - - [30/Nov/2025 16:15:59] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:16:01,474 INFO 127.0.0.1 - - [30/Nov/2025 16:16:01] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:16:04,516 INFO 127.0.0.1 - - [30/Nov/2025 16:16:04] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:16:05,747 INFO 127.0.0.1 - - [30/Nov/2025 16:16:05] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:16:09,122 INFO 127.0.0.1 - - [30/Nov/2025 16:16:09] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:16:11,398 INFO 127.0.0.1 - - [30/Nov/2025 16:16:11] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:16:14,149 INFO 127.0.0.1 - - [30/Nov/2025 16:16:14] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:16:16,380 INFO 127.0.0.1 - - [30/Nov/2025 16:16:16] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:16:19,142 INFO 127.0.0.1 - - [30/Nov/2025 16:16:19] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:16:21,393 INFO 127.0.0.1 - - [30/Nov/2025 16:16:21] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:16:24,394 INFO 127.0.0.1 - - [30/Nov/2025 16:16:24] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:16:29,231 INFO 127.0.0.1 - - [30/Nov/2025 16:16:29] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:16:31,352 INFO 127.0.0.1 - - [30/Nov/2025 16:16:31] "GET / HTTP/1.1" 200 -
+2025-11-30 16:16:31,413 INFO 127.0.0.1 - - [30/Nov/2025 16:16:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:16:31,514 INFO 127.0.0.1 - - [30/Nov/2025 16:16:31] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:16:36,546 INFO 127.0.0.1 - - [30/Nov/2025 16:16:36] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:16:42,292 INFO 127.0.0.1 - - [30/Nov/2025 16:16:42] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:17:15,684 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-30 16:17:15,684 INFO [33mPress CTRL+C to quit[0m
+2025-11-30 16:17:15,691 INFO  * Restarting with stat
+2025-11-30 16:17:42,764 WARNING  * Debugger is active!
+2025-11-30 16:17:42,775 INFO  * Debugger PIN: 449-435-680
+2025-11-30 16:17:44,976 INFO 127.0.0.1 - - [30/Nov/2025 16:17:44] "GET / HTTP/1.1" 200 -
+2025-11-30 16:17:44,976 INFO 127.0.0.1 - - [30/Nov/2025 16:17:44] "GET / HTTP/1.1" 200 -
+2025-11-30 16:17:45,129 INFO 127.0.0.1 - - [30/Nov/2025 16:17:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:17:45,550 INFO 127.0.0.1 - - [30/Nov/2025 16:17:45] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:17:50,227 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 56}
+2025-11-30 16:17:50,227 INFO 127.0.0.1 - - [30/Nov/2025 16:17:50] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:17:55,261 INFO pred {'quality': 'Face too small', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 73}
+2025-11-30 16:17:55,265 INFO 127.0.0.1 - - [30/Nov/2025 16:17:55] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:18:00,260 INFO pred {'quality': 'Face too small', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 76}
+2025-11-30 16:18:00,262 INFO 127.0.0.1 - - [30/Nov/2025 16:18:00] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:18:05,247 INFO pred {'quality': 'Face too small', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 71}
+2025-11-30 16:18:05,253 INFO 127.0.0.1 - - [30/Nov/2025 16:18:05] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:18:10,260 INFO pred {'quality': 'Face too small', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 81}
+2025-11-30 16:18:10,262 INFO 127.0.0.1 - - [30/Nov/2025 16:18:10] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:18:15,258 INFO pred {'quality': 'Face too small', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 82}
+2025-11-30 16:18:15,260 INFO 127.0.0.1 - - [30/Nov/2025 16:18:15] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:18:20,273 INFO pred {'quality': 'Face too small', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 86}
+2025-11-30 16:18:20,274 INFO 127.0.0.1 - - [30/Nov/2025 16:18:20] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:18:25,246 INFO pred {'quality': 'Face too small', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 70}
+2025-11-30 16:18:25,247 INFO 127.0.0.1 - - [30/Nov/2025 16:18:25] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:18:30,293 INFO pred {'quality': 'Face too small', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 83}
+2025-11-30 16:18:30,293 INFO 127.0.0.1 - - [30/Nov/2025 16:18:30] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:18:35,225 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 31}
+2025-11-30 16:18:35,229 INFO 127.0.0.1 - - [30/Nov/2025 16:18:35] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:18:40,267 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 60}
+2025-11-30 16:18:40,270 INFO 127.0.0.1 - - [30/Nov/2025 16:18:40] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:18:45,240 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 48}
+2025-11-30 16:18:45,240 INFO 127.0.0.1 - - [30/Nov/2025 16:18:45] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:18:50,257 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 53}
+2025-11-30 16:18:50,260 INFO 127.0.0.1 - - [30/Nov/2025 16:18:50] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:18:55,240 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 42}
+2025-11-30 16:18:55,243 INFO 127.0.0.1 - - [30/Nov/2025 16:18:55] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:19:00,218 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 42}
+2025-11-30 16:19:00,219 INFO 127.0.0.1 - - [30/Nov/2025 16:19:00] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:19:05,336 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 29}
+2025-11-30 16:19:05,336 INFO 127.0.0.1 - - [30/Nov/2025 16:19:05] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:19:10,244 INFO 127.0.0.1 - - [30/Nov/2025 16:19:10] "GET / HTTP/1.1" 200 -
+2025-11-30 16:19:10,384 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 50}
+2025-11-30 16:19:10,384 INFO 127.0.0.1 - - [30/Nov/2025 16:19:10] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:19:10,515 INFO 127.0.0.1 - - [30/Nov/2025 16:19:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:19:10,569 INFO 127.0.0.1 - - [30/Nov/2025 16:19:10] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:19:15,405 INFO 127.0.0.1 - - [30/Nov/2025 16:19:15] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:19:15,665 INFO 127.0.0.1 - - [30/Nov/2025 16:19:15] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:19:20,402 INFO 127.0.0.1 - - [30/Nov/2025 16:19:20] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:19:21,387 INFO 127.0.0.1 - - [30/Nov/2025 16:19:21] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:19:25,383 INFO 127.0.0.1 - - [30/Nov/2025 16:19:25] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:19:26,338 INFO 127.0.0.1 - - [30/Nov/2025 16:19:26] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:19:30,386 INFO 127.0.0.1 - - [30/Nov/2025 16:19:30] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:19:30,710 INFO 127.0.0.1 - - [30/Nov/2025 16:19:30] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:19:31,173 INFO 127.0.0.1 - - [30/Nov/2025 16:19:31] "GET / HTTP/1.1" 200 -
+2025-11-30 16:19:31,270 INFO 127.0.0.1 - - [30/Nov/2025 16:19:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:19:31,356 INFO 127.0.0.1 - - [30/Nov/2025 16:19:31] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:19:35,614 INFO 127.0.0.1 - - [30/Nov/2025 16:19:35] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:19:36,579 INFO 127.0.0.1 - - [30/Nov/2025 16:19:36] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:19:40,520 INFO 127.0.0.1 - - [30/Nov/2025 16:19:40] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:19:41,515 INFO 127.0.0.1 - - [30/Nov/2025 16:19:41] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:19:45,366 INFO 127.0.0.1 - - [30/Nov/2025 16:19:45] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:19:46,433 INFO 127.0.0.1 - - [30/Nov/2025 16:19:46] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:19:50,268 INFO 127.0.0.1 - - [30/Nov/2025 16:19:50] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:19:52,474 INFO 127.0.0.1 - - [30/Nov/2025 16:19:52] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:19:55,761 INFO 127.0.0.1 - - [30/Nov/2025 16:19:55] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:19:57,385 INFO 127.0.0.1 - - [30/Nov/2025 16:19:57] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:20:00,296 INFO 127.0.0.1 - - [30/Nov/2025 16:20:00] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:20:02,366 INFO 127.0.0.1 - - [30/Nov/2025 16:20:02] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:20:05,361 INFO 127.0.0.1 - - [30/Nov/2025 16:20:05] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:20:07,418 INFO 127.0.0.1 - - [30/Nov/2025 16:20:07] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:20:10,267 INFO 127.0.0.1 - - [30/Nov/2025 16:20:10] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:20:12,388 INFO 127.0.0.1 - - [30/Nov/2025 16:20:12] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:20:15,318 INFO 127.0.0.1 - - [30/Nov/2025 16:20:15] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:20:17,382 INFO 127.0.0.1 - - [30/Nov/2025 16:20:17] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:20:20,284 INFO 127.0.0.1 - - [30/Nov/2025 16:20:20] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:20:22,380 INFO 127.0.0.1 - - [30/Nov/2025 16:20:22] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:20:25,749 INFO 127.0.0.1 - - [30/Nov/2025 16:20:25] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:20:27,448 INFO 127.0.0.1 - - [30/Nov/2025 16:20:27] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:20:30,448 INFO 127.0.0.1 - - [30/Nov/2025 16:20:30] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:20:32,430 INFO 127.0.0.1 - - [30/Nov/2025 16:20:32] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:20:35,294 INFO 127.0.0.1 - - [30/Nov/2025 16:20:35] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:20:37,386 INFO 127.0.0.1 - - [30/Nov/2025 16:20:37] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:20:40,303 INFO 127.0.0.1 - - [30/Nov/2025 16:20:40] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:20:42,402 INFO 127.0.0.1 - - [30/Nov/2025 16:20:42] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:20:45,306 INFO 127.0.0.1 - - [30/Nov/2025 16:20:45] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:20:47,380 INFO 127.0.0.1 - - [30/Nov/2025 16:20:47] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:20:50,292 INFO 127.0.0.1 - - [30/Nov/2025 16:20:50] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:20:55,315 INFO 127.0.0.1 - - [30/Nov/2025 16:20:55] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:21:26,286 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-30 16:21:26,286 INFO [33mPress CTRL+C to quit[0m
+2025-11-30 16:21:26,292 INFO  * Restarting with stat
+2025-11-30 16:21:55,864 WARNING  * Debugger is active!
+2025-11-30 16:21:55,864 INFO  * Debugger PIN: 449-435-680
+2025-11-30 16:22:03,665 INFO 127.0.0.1 - - [30/Nov/2025 16:22:03] "GET / HTTP/1.1" 200 -
+2025-11-30 16:22:03,678 INFO 127.0.0.1 - - [30/Nov/2025 16:22:03] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:22:03,749 INFO 127.0.0.1 - - [30/Nov/2025 16:22:03] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:22:04,027 INFO 127.0.0.1 - - [30/Nov/2025 16:22:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:22:09,059 INFO 127.0.0.1 - - [30/Nov/2025 16:22:09] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:22:14,049 INFO 127.0.0.1 - - [30/Nov/2025 16:22:14] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:22:19,044 INFO 127.0.0.1 - - [30/Nov/2025 16:22:19] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:22:24,087 INFO 127.0.0.1 - - [30/Nov/2025 16:22:24] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:22:29,048 INFO 127.0.0.1 - - [30/Nov/2025 16:22:29] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:22:34,048 INFO 127.0.0.1 - - [30/Nov/2025 16:22:34] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:22:39,057 INFO 127.0.0.1 - - [30/Nov/2025 16:22:39] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:22:39,271 INFO 127.0.0.1 - - [30/Nov/2025 16:22:39] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:22:44,053 INFO 127.0.0.1 - - [30/Nov/2025 16:22:44] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:22:49,052 INFO 127.0.0.1 - - [30/Nov/2025 16:22:49] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:22:54,050 INFO 127.0.0.1 - - [30/Nov/2025 16:22:54] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:22:56,423 INFO 127.0.0.1 - - [30/Nov/2025 16:22:56] "GET / HTTP/1.1" 200 -
+2025-11-30 16:22:56,478 INFO 127.0.0.1 - - [30/Nov/2025 16:22:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:22:56,480 INFO 127.0.0.1 - - [30/Nov/2025 16:22:56] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:23:01,508 INFO 127.0.0.1 - - [30/Nov/2025 16:23:01] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:23:06,489 INFO 127.0.0.1 - - [30/Nov/2025 16:23:06] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:23:12,258 INFO 127.0.0.1 - - [30/Nov/2025 16:23:12] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:23:17,388 INFO 127.0.0.1 - - [30/Nov/2025 16:23:17] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:23:17,395 INFO 127.0.0.1 - - [30/Nov/2025 16:23:17] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:23:19,699 INFO 127.0.0.1 - - [30/Nov/2025 16:23:19] "GET / HTTP/1.1" 200 -
+2025-11-30 16:23:19,764 INFO 127.0.0.1 - - [30/Nov/2025 16:23:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:23:19,765 INFO 127.0.0.1 - - [30/Nov/2025 16:23:19] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:23:22,276 INFO 127.0.0.1 - - [30/Nov/2025 16:23:22] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:23:24,831 INFO 127.0.0.1 - - [30/Nov/2025 16:23:24] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:23:27,253 INFO 127.0.0.1 - - [30/Nov/2025 16:23:27] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:23:29,779 INFO 127.0.0.1 - - [30/Nov/2025 16:23:29] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:23:32,287 INFO 127.0.0.1 - - [30/Nov/2025 16:23:32] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:23:34,784 INFO 127.0.0.1 - - [30/Nov/2025 16:23:34] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:23:37,274 INFO 127.0.0.1 - - [30/Nov/2025 16:23:37] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:23:39,798 INFO 127.0.0.1 - - [30/Nov/2025 16:23:39] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:23:41,496 INFO 127.0.0.1 - - [30/Nov/2025 16:23:41] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:23:43,000 INFO 127.0.0.1 - - [30/Nov/2025 16:23:43] "GET / HTTP/1.1" 200 -
+2025-11-30 16:23:43,044 INFO 127.0.0.1 - - [30/Nov/2025 16:23:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:23:43,051 INFO 127.0.0.1 - - [30/Nov/2025 16:23:43] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:23:45,263 INFO 127.0.0.1 - - [30/Nov/2025 16:23:45] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:23:48,057 INFO 127.0.0.1 - - [30/Nov/2025 16:23:48] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:23:50,262 INFO 127.0.0.1 - - [30/Nov/2025 16:23:50] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:23:53,066 INFO 127.0.0.1 - - [30/Nov/2025 16:23:53] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:23:55,260 INFO 127.0.0.1 - - [30/Nov/2025 16:23:55] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:23:58,066 INFO 127.0.0.1 - - [30/Nov/2025 16:23:58] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:24:00,276 INFO 127.0.0.1 - - [30/Nov/2025 16:24:00] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:24:03,071 INFO 127.0.0.1 - - [30/Nov/2025 16:24:03] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:24:05,269 INFO 127.0.0.1 - - [30/Nov/2025 16:24:05] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:24:08,065 INFO 127.0.0.1 - - [30/Nov/2025 16:24:08] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:24:10,267 INFO 127.0.0.1 - - [30/Nov/2025 16:24:10] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:24:13,272 INFO 127.0.0.1 - - [30/Nov/2025 16:24:13] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:24:15,301 INFO 127.0.0.1 - - [30/Nov/2025 16:24:15] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:24:18,272 INFO 127.0.0.1 - - [30/Nov/2025 16:24:18] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:24:20,284 INFO 127.0.0.1 - - [30/Nov/2025 16:24:20] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:24:23,273 INFO 127.0.0.1 - - [30/Nov/2025 16:24:23] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:24:25,293 INFO 127.0.0.1 - - [30/Nov/2025 16:24:25] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:24:28,260 INFO 127.0.0.1 - - [30/Nov/2025 16:24:28] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:24:30,265 INFO 127.0.0.1 - - [30/Nov/2025 16:24:30] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:24:33,084 INFO 127.0.0.1 - - [30/Nov/2025 16:24:33] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:24:35,264 INFO 127.0.0.1 - - [30/Nov/2025 16:24:35] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:24:36,937 INFO 127.0.0.1 - - [30/Nov/2025 16:24:36] "GET / HTTP/1.1" 200 -
+2025-11-30 16:24:36,992 INFO 127.0.0.1 - - [30/Nov/2025 16:24:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:24:36,992 INFO 127.0.0.1 - - [30/Nov/2025 16:24:36] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:24:40,268 INFO 127.0.0.1 - - [30/Nov/2025 16:24:40] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:24:42,014 INFO 127.0.0.1 - - [30/Nov/2025 16:24:42] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:24:45,148 INFO 127.0.0.1 - - [30/Nov/2025 16:24:45] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:24:47,325 INFO 127.0.0.1 - - [30/Nov/2025 16:24:47] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:24:49,792 INFO 127.0.0.1 - - [30/Nov/2025 16:24:49] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:24:52,274 INFO 127.0.0.1 - - [30/Nov/2025 16:24:52] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:24:54,781 INFO 127.0.0.1 - - [30/Nov/2025 16:24:54] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:24:55,933 INFO 127.0.0.1 - - [30/Nov/2025 16:24:55] "GET / HTTP/1.1" 200 -
+2025-11-30 16:24:56,006 INFO 127.0.0.1 - - [30/Nov/2025 16:24:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:24:56,014 INFO 127.0.0.1 - - [30/Nov/2025 16:24:56] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:24:56,684 INFO 127.0.0.1 - - [30/Nov/2025 16:24:56] "GET / HTTP/1.1" 200 -
+2025-11-30 16:24:56,742 INFO 127.0.0.1 - - [30/Nov/2025 16:24:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:24:56,746 INFO 127.0.0.1 - - [30/Nov/2025 16:24:56] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:24:57,146 INFO 127.0.0.1 - - [30/Nov/2025 16:24:57] "GET / HTTP/1.1" 200 -
+2025-11-30 16:24:57,210 INFO 127.0.0.1 - - [30/Nov/2025 16:24:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:24:57,218 INFO 127.0.0.1 - - [30/Nov/2025 16:24:57] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:24:57,264 INFO 127.0.0.1 - - [30/Nov/2025 16:24:57] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:24:57,386 INFO 127.0.0.1 - - [30/Nov/2025 16:24:57] "GET / HTTP/1.1" 200 -
+2025-11-30 16:24:57,450 INFO 127.0.0.1 - - [30/Nov/2025 16:24:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:24:57,450 INFO 127.0.0.1 - - [30/Nov/2025 16:24:57] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:24:57,592 INFO 127.0.0.1 - - [30/Nov/2025 16:24:57] "GET / HTTP/1.1" 200 -
+2025-11-30 16:24:57,651 INFO 127.0.0.1 - - [30/Nov/2025 16:24:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:24:57,653 INFO 127.0.0.1 - - [30/Nov/2025 16:24:57] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:24:57,931 INFO 127.0.0.1 - - [30/Nov/2025 16:24:57] "GET / HTTP/1.1" 200 -
+2025-11-30 16:24:57,986 INFO 127.0.0.1 - - [30/Nov/2025 16:24:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:24:57,993 INFO 127.0.0.1 - - [30/Nov/2025 16:24:57] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:25:02,061 INFO 127.0.0.1 - - [30/Nov/2025 16:25:02] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:25:03,269 INFO 127.0.0.1 - - [30/Nov/2025 16:25:03] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:25:07,009 INFO 127.0.0.1 - - [30/Nov/2025 16:25:07] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:25:08,282 INFO 127.0.0.1 - - [30/Nov/2025 16:25:08] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:25:12,014 INFO 127.0.0.1 - - [30/Nov/2025 16:25:12] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:25:13,274 INFO 127.0.0.1 - - [30/Nov/2025 16:25:13] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:25:17,258 INFO 127.0.0.1 - - [30/Nov/2025 16:25:17] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:25:18,267 INFO 127.0.0.1 - - [30/Nov/2025 16:25:18] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:25:22,261 INFO 127.0.0.1 - - [30/Nov/2025 16:25:22] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:25:23,263 INFO 127.0.0.1 - - [30/Nov/2025 16:25:23] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:25:27,261 INFO 127.0.0.1 - - [30/Nov/2025 16:25:27] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:25:28,262 INFO 127.0.0.1 - - [30/Nov/2025 16:25:28] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:25:32,274 INFO 127.0.0.1 - - [30/Nov/2025 16:25:32] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:25:33,280 INFO 127.0.0.1 - - [30/Nov/2025 16:25:33] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:25:37,269 INFO 127.0.0.1 - - [30/Nov/2025 16:25:37] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:25:38,266 INFO 127.0.0.1 - - [30/Nov/2025 16:25:38] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:25:42,272 INFO 127.0.0.1 - - [30/Nov/2025 16:25:42] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:25:43,266 INFO 127.0.0.1 - - [30/Nov/2025 16:25:43] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:25:47,260 INFO 127.0.0.1 - - [30/Nov/2025 16:25:47] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:25:48,264 INFO 127.0.0.1 - - [30/Nov/2025 16:25:48] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:25:52,077 INFO 127.0.0.1 - - [30/Nov/2025 16:25:52] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:25:53,266 INFO 127.0.0.1 - - [30/Nov/2025 16:25:53] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:25:57,036 INFO 127.0.0.1 - - [30/Nov/2025 16:25:57] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:25:58,266 INFO 127.0.0.1 - - [30/Nov/2025 16:25:58] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:26:02,013 INFO 127.0.0.1 - - [30/Nov/2025 16:26:02] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:26:03,290 INFO 127.0.0.1 - - [30/Nov/2025 16:26:03] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:26:07,268 INFO 127.0.0.1 - - [30/Nov/2025 16:26:07] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:26:08,258 INFO 127.0.0.1 - - [30/Nov/2025 16:26:08] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:26:12,261 INFO 127.0.0.1 - - [30/Nov/2025 16:26:12] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:26:13,265 INFO 127.0.0.1 - - [30/Nov/2025 16:26:13] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:26:17,270 INFO 127.0.0.1 - - [30/Nov/2025 16:26:17] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:26:18,255 INFO 127.0.0.1 - - [30/Nov/2025 16:26:18] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:26:22,018 INFO 127.0.0.1 - - [30/Nov/2025 16:26:22] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:26:27,291 INFO 127.0.0.1 - - [30/Nov/2025 16:26:27] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:26:32,278 INFO 127.0.0.1 - - [30/Nov/2025 16:26:32] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:26:37,270 INFO 127.0.0.1 - - [30/Nov/2025 16:26:37] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:26:39,281 INFO 127.0.0.1 - - [30/Nov/2025 16:26:39] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:26:42,262 INFO 127.0.0.1 - - [30/Nov/2025 16:26:42] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:26:47,286 INFO 127.0.0.1 - - [30/Nov/2025 16:26:47] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:26:52,286 INFO 127.0.0.1 - - [30/Nov/2025 16:26:52] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:26:57,304 INFO 127.0.0.1 - - [30/Nov/2025 16:26:57] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:27:02,260 INFO 127.0.0.1 - - [30/Nov/2025 16:27:02] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:27:07,266 INFO 127.0.0.1 - - [30/Nov/2025 16:27:07] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:27:12,254 INFO 127.0.0.1 - - [30/Nov/2025 16:27:12] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:27:17,285 INFO 127.0.0.1 - - [30/Nov/2025 16:27:17] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:27:22,285 INFO 127.0.0.1 - - [30/Nov/2025 16:27:22] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:27:39,268 INFO 127.0.0.1 - - [30/Nov/2025 16:27:39] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:27:39,277 INFO 127.0.0.1 - - [30/Nov/2025 16:27:39] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:28:39,272 INFO 127.0.0.1 - - [30/Nov/2025 16:28:39] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:28:39,281 INFO 127.0.0.1 - - [30/Nov/2025 16:28:39] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:29:36,521 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-30 16:29:36,521 INFO [33mPress CTRL+C to quit[0m
+2025-11-30 16:29:36,521 INFO  * Restarting with stat
+2025-11-30 16:29:59,757 WARNING  * Debugger is active!
+2025-11-30 16:29:59,769 INFO  * Debugger PIN: 449-435-680
+2025-11-30 16:30:08,009 INFO 127.0.0.1 - - [30/Nov/2025 16:30:08] "GET / HTTP/1.1" 200 -
+2025-11-30 16:30:08,009 INFO 127.0.0.1 - - [30/Nov/2025 16:30:08] "GET / HTTP/1.1" 200 -
+2025-11-30 16:30:08,013 INFO 127.0.0.1 - - [30/Nov/2025 16:30:08] "GET / HTTP/1.1" 200 -
+2025-11-30 16:30:08,042 INFO 127.0.0.1 - - [30/Nov/2025 16:30:08] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:30:08,074 INFO 127.0.0.1 - - [30/Nov/2025 16:30:08] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:30:08,411 INFO 127.0.0.1 - - [30/Nov/2025 16:30:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:30:13,450 INFO 127.0.0.1 - - [30/Nov/2025 16:30:13] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:30:18,458 INFO 127.0.0.1 - - [30/Nov/2025 16:30:18] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:30:24,290 INFO 127.0.0.1 - - [30/Nov/2025 16:30:24] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:30:29,316 INFO 127.0.0.1 - - [30/Nov/2025 16:30:29] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:30:34,268 INFO 127.0.0.1 - - [30/Nov/2025 16:30:34] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:30:39,268 INFO 127.0.0.1 - - [30/Nov/2025 16:30:39] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:30:39,268 INFO 127.0.0.1 - - [30/Nov/2025 16:30:39] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:30:44,275 INFO 127.0.0.1 - - [30/Nov/2025 16:30:44] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:30:49,256 INFO 127.0.0.1 - - [30/Nov/2025 16:30:49] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:30:52,231 INFO  * Detected change in 'C:\\Users\\Dell\\Downloads\\suman mam\\app.py', reloading
+2025-11-30 16:30:53,508 INFO  * Restarting with stat
+2025-11-30 16:31:12,763 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-30 16:31:12,765 INFO [33mPress CTRL+C to quit[0m
+2025-11-30 16:31:12,771 INFO  * Restarting with stat
+2025-11-30 16:31:29,392 WARNING  * Debugger is active!
+2025-11-30 16:31:29,412 INFO  * Debugger PIN: 449-435-680
+2025-11-30 16:31:37,599 INFO 127.0.0.1 - - [30/Nov/2025 16:31:37] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:31:37,610 INFO 127.0.0.1 - - [30/Nov/2025 16:31:37] "GET / HTTP/1.1" 200 -
+2025-11-30 16:31:37,618 INFO 127.0.0.1 - - [30/Nov/2025 16:31:37] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:31:37,680 INFO 127.0.0.1 - - [30/Nov/2025 16:31:37] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:31:38,090 INFO 127.0.0.1 - - [30/Nov/2025 16:31:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:31:39,289 INFO 127.0.0.1 - - [30/Nov/2025 16:31:39] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:31:41,031 INFO 127.0.0.1 - - [30/Nov/2025 16:31:41] "GET / HTTP/1.1" 200 -
+2025-11-30 16:31:41,073 INFO 127.0.0.1 - - [30/Nov/2025 16:31:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:31:41,079 INFO 127.0.0.1 - - [30/Nov/2025 16:31:41] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:31:46,264 INFO 127.0.0.1 - - [30/Nov/2025 16:31:46] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:31:47,008 INFO 127.0.0.1 - - [30/Nov/2025 16:31:47] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:31:48,043 INFO 127.0.0.1 - - [30/Nov/2025 16:31:48] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:31:48,653 INFO 127.0.0.1 - - [30/Nov/2025 16:31:48] "GET / HTTP/1.1" 200 -
+2025-11-30 16:31:48,719 INFO 127.0.0.1 - - [30/Nov/2025 16:31:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:31:48,725 INFO 127.0.0.1 - - [30/Nov/2025 16:31:48] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:31:51,279 INFO 127.0.0.1 - - [30/Nov/2025 16:31:51] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:31:54,271 INFO 127.0.0.1 - - [30/Nov/2025 16:31:54] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:31:56,085 INFO 127.0.0.1 - - [30/Nov/2025 16:31:56] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:31:59,258 INFO 127.0.0.1 - - [30/Nov/2025 16:31:59] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:32:01,283 INFO 127.0.0.1 - - [30/Nov/2025 16:32:01] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:32:04,260 INFO 127.0.0.1 - - [30/Nov/2025 16:32:04] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:32:06,281 INFO 127.0.0.1 - - [30/Nov/2025 16:32:06] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:32:09,254 INFO 127.0.0.1 - - [30/Nov/2025 16:32:09] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:32:11,264 INFO 127.0.0.1 - - [30/Nov/2025 16:32:11] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:32:14,275 INFO 127.0.0.1 - - [30/Nov/2025 16:32:14] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:32:16,252 INFO 127.0.0.1 - - [30/Nov/2025 16:32:16] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:41:53,764 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-30 16:41:53,764 INFO [33mPress CTRL+C to quit[0m
+2025-11-30 16:41:53,773 INFO  * Restarting with stat
+2025-11-30 16:42:03,955 WARNING  * Debugger is active!
+2025-11-30 16:42:03,966 INFO  * Debugger PIN: 449-435-680
+2025-11-30 16:42:21,659 INFO 127.0.0.1 - - [30/Nov/2025 16:42:21] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:42:23,742 INFO 127.0.0.1 - - [30/Nov/2025 16:42:23] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:42:23,821 INFO 127.0.0.1 - - [30/Nov/2025 16:42:23] "GET / HTTP/1.1" 200 -
+2025-11-30 16:42:23,894 INFO 127.0.0.1 - - [30/Nov/2025 16:42:23] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:42:24,170 INFO 127.0.0.1 - - [30/Nov/2025 16:42:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:42:29,190 INFO 127.0.0.1 - - [30/Nov/2025 16:42:29] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:42:34,253 INFO 127.0.0.1 - - [30/Nov/2025 16:42:34] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:42:39,260 INFO 127.0.0.1 - - [30/Nov/2025 16:42:39] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:42:44,256 INFO 127.0.0.1 - - [30/Nov/2025 16:42:44] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:42:49,252 INFO 127.0.0.1 - - [30/Nov/2025 16:42:49] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:42:54,275 INFO 127.0.0.1 - - [30/Nov/2025 16:42:54] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:42:59,252 INFO 127.0.0.1 - - [30/Nov/2025 16:42:59] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:43:04,251 INFO 127.0.0.1 - - [30/Nov/2025 16:43:04] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:43:09,250 INFO 127.0.0.1 - - [30/Nov/2025 16:43:09] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:43:14,257 INFO 127.0.0.1 - - [30/Nov/2025 16:43:14] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:43:19,257 INFO 127.0.0.1 - - [30/Nov/2025 16:43:19] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:43:24,255 INFO 127.0.0.1 - - [30/Nov/2025 16:43:24] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:43:29,256 INFO 127.0.0.1 - - [30/Nov/2025 16:43:29] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:43:39,263 INFO 127.0.0.1 - - [30/Nov/2025 16:43:39] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:43:58,721 INFO 127.0.0.1 - - [30/Nov/2025 16:43:58] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:43:59,190 INFO 127.0.0.1 - - [30/Nov/2025 16:43:59] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:44:00,214 INFO 127.0.0.1 - - [30/Nov/2025 16:44:00] "GET / HTTP/1.1" 200 -
+2025-11-30 16:44:00,258 INFO 127.0.0.1 - - [30/Nov/2025 16:44:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:44:00,262 INFO 127.0.0.1 - - [30/Nov/2025 16:44:00] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:44:05,270 INFO 127.0.0.1 - - [30/Nov/2025 16:44:05] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:44:10,270 INFO 127.0.0.1 - - [30/Nov/2025 16:44:10] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:44:15,272 INFO 127.0.0.1 - - [30/Nov/2025 16:44:15] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:44:15,775 INFO 127.0.0.1 - - [30/Nov/2025 16:44:15] "GET / HTTP/1.1" 200 -
+2025-11-30 16:44:15,814 INFO 127.0.0.1 - - [30/Nov/2025 16:44:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:44:15,815 INFO 127.0.0.1 - - [30/Nov/2025 16:44:15] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:44:20,825 INFO 127.0.0.1 - - [30/Nov/2025 16:44:20] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:44:26,251 INFO 127.0.0.1 - - [30/Nov/2025 16:44:26] "[35m[1mGET /predict HTTP/1.1[0m" 503 -
+2025-11-30 16:49:25,604 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-30 16:49:25,604 INFO [33mPress CTRL+C to quit[0m
+2025-11-30 16:49:25,607 INFO  * Restarting with stat
+2025-11-30 16:49:32,538 WARNING  * Debugger is active!
+2025-11-30 16:49:32,541 INFO  * Debugger PIN: 449-435-680
+2025-11-30 16:49:39,547 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 141}
+2025-11-30 16:49:39,549 INFO 127.0.0.1 - - [30/Nov/2025 16:49:39] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:49:39,865 INFO 127.0.0.1 - - [30/Nov/2025 16:49:39] "GET / HTTP/1.1" 200 -
+2025-11-30 16:49:40,120 INFO 127.0.0.1 - - [30/Nov/2025 16:49:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:49:40,982 INFO 127.0.0.1 - - [30/Nov/2025 16:49:40] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:49:46,176 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 37}
+2025-11-30 16:49:46,176 INFO 127.0.0.1 - - [30/Nov/2025 16:49:46] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:49:51,217 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 77}
+2025-11-30 16:49:51,217 INFO 127.0.0.1 - - [30/Nov/2025 16:49:51] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:49:56,298 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 30}
+2025-11-30 16:49:56,299 INFO 127.0.0.1 - - [30/Nov/2025 16:49:56] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:50:01,189 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 30}
+2025-11-30 16:50:01,189 INFO 127.0.0.1 - - [30/Nov/2025 16:50:01] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:50:06,202 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 61}
+2025-11-30 16:50:06,204 INFO 127.0.0.1 - - [30/Nov/2025 16:50:06] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:50:11,224 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 71}
+2025-11-30 16:50:11,224 INFO 127.0.0.1 - - [30/Nov/2025 16:50:11] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:50:16,190 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 41}
+2025-11-30 16:50:16,190 INFO 127.0.0.1 - - [30/Nov/2025 16:50:16] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:50:21,186 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 38}
+2025-11-30 16:50:21,186 INFO 127.0.0.1 - - [30/Nov/2025 16:50:21] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:50:26,197 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 47}
+2025-11-30 16:50:26,197 INFO 127.0.0.1 - - [30/Nov/2025 16:50:26] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:50:31,191 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 40}
+2025-11-30 16:50:31,191 INFO 127.0.0.1 - - [30/Nov/2025 16:50:31] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:50:34,591 INFO 127.0.0.1 - - [30/Nov/2025 16:50:34] "GET / HTTP/1.1" 200 -
+2025-11-30 16:50:34,637 INFO 127.0.0.1 - - [30/Nov/2025 16:50:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:50:35,661 INFO 127.0.0.1 - - [30/Nov/2025 16:50:35] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:50:40,686 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 30}
+2025-11-30 16:50:40,686 INFO 127.0.0.1 - - [30/Nov/2025 16:50:40] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:50:45,693 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 23}
+2025-11-30 16:50:45,693 INFO 127.0.0.1 - - [30/Nov/2025 16:50:45] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:50:50,683 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 42}
+2025-11-30 16:50:50,685 INFO 127.0.0.1 - - [30/Nov/2025 16:50:50] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:50:55,690 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 34}
+2025-11-30 16:50:55,691 INFO 127.0.0.1 - - [30/Nov/2025 16:50:55] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:51:00,713 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 43}
+2025-11-30 16:51:00,714 INFO 127.0.0.1 - - [30/Nov/2025 16:51:00] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:51:05,686 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 31}
+2025-11-30 16:51:05,686 INFO 127.0.0.1 - - [30/Nov/2025 16:51:05] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:51:10,707 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 51}
+2025-11-30 16:51:10,707 INFO 127.0.0.1 - - [30/Nov/2025 16:51:10] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:51:15,697 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 49}
+2025-11-30 16:51:15,697 INFO 127.0.0.1 - - [30/Nov/2025 16:51:15] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:51:17,430 INFO 127.0.0.1 - - [30/Nov/2025 16:51:17] "GET / HTTP/1.1" 200 -
+2025-11-30 16:51:17,508 INFO 127.0.0.1 - - [30/Nov/2025 16:51:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:51:18,514 INFO 127.0.0.1 - - [30/Nov/2025 16:51:18] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:51:23,618 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 57}
+2025-11-30 16:51:23,619 INFO 127.0.0.1 - - [30/Nov/2025 16:51:23] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:51:28,572 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 33}
+2025-11-30 16:51:28,573 INFO 127.0.0.1 - - [30/Nov/2025 16:51:28] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:51:34,291 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 34}
+2025-11-30 16:51:34,291 INFO 127.0.0.1 - - [30/Nov/2025 16:51:34] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:51:39,300 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 35}
+2025-11-30 16:51:39,300 INFO 127.0.0.1 - - [30/Nov/2025 16:51:39] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:51:44,335 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 71}
+2025-11-30 16:51:44,337 INFO 127.0.0.1 - - [30/Nov/2025 16:51:44] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:51:49,312 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 57}
+2025-11-30 16:51:49,312 INFO 127.0.0.1 - - [30/Nov/2025 16:51:49] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:51:54,323 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 65}
+2025-11-30 16:51:54,324 INFO 127.0.0.1 - - [30/Nov/2025 16:51:54] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:51:59,326 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 60}
+2025-11-30 16:51:59,326 INFO 127.0.0.1 - - [30/Nov/2025 16:51:59] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:52:04,329 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 67}
+2025-11-30 16:52:04,331 INFO 127.0.0.1 - - [30/Nov/2025 16:52:04] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:52:09,328 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 65}
+2025-11-30 16:52:09,329 INFO 127.0.0.1 - - [30/Nov/2025 16:52:09] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:52:14,397 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 146}
+2025-11-30 16:52:14,398 INFO 127.0.0.1 - - [30/Nov/2025 16:52:14] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:52:19,382 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 119}
+2025-11-30 16:52:19,383 INFO 127.0.0.1 - - [30/Nov/2025 16:52:19] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:52:24,299 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 41}
+2025-11-30 16:52:24,300 INFO 127.0.0.1 - - [30/Nov/2025 16:52:24] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:52:29,329 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 64}
+2025-11-30 16:52:29,331 INFO 127.0.0.1 - - [30/Nov/2025 16:52:29] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:52:40,296 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 41}
+2025-11-30 16:52:40,297 INFO 127.0.0.1 - - [30/Nov/2025 16:52:40] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:52:47,116 INFO  * Detected change in 'C:\\Users\\Dell\\Downloads\\suman mam\\app.py', reloading
+2025-11-30 16:52:47,905 INFO  * Restarting with stat
+2025-11-30 16:53:06,550 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-30 16:53:06,551 INFO [33mPress CTRL+C to quit[0m
+2025-11-30 16:53:06,556 INFO  * Restarting with stat
+2025-11-30 16:53:20,110 WARNING  * Debugger is active!
+2025-11-30 16:53:20,120 INFO  * Debugger PIN: 449-435-680
+2025-11-30 16:53:22,610 INFO 127.0.0.1 - - [30/Nov/2025 16:53:22] "GET / HTTP/1.1" 200 -
+2025-11-30 16:53:22,774 INFO 127.0.0.1 - - [30/Nov/2025 16:53:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:53:23,716 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 89}
+2025-11-30 16:53:23,718 INFO 127.0.0.1 - - [30/Nov/2025 16:53:23] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:53:23,720 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 111}
+2025-11-30 16:53:23,722 INFO 127.0.0.1 - - [30/Nov/2025 16:53:23] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:53:23,724 INFO 127.0.0.1 - - [30/Nov/2025 16:53:23] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:53:28,830 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 50}
+2025-11-30 16:53:28,833 INFO 127.0.0.1 - - [30/Nov/2025 16:53:28] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:53:33,843 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 46}
+2025-11-30 16:53:33,843 INFO 127.0.0.1 - - [30/Nov/2025 16:53:33] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:53:39,319 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 51}
+2025-11-30 16:53:39,319 INFO 127.0.0.1 - - [30/Nov/2025 16:53:39] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:53:44,322 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 54}
+2025-11-30 16:53:44,324 INFO 127.0.0.1 - - [30/Nov/2025 16:53:44] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:53:49,582 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 269}
+2025-11-30 16:53:49,589 INFO 127.0.0.1 - - [30/Nov/2025 16:53:49] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:53:53,851 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 40}
+2025-11-30 16:53:53,851 INFO 127.0.0.1 - - [30/Nov/2025 16:53:53] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:53:59,309 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 45}
+2025-11-30 16:53:59,309 INFO 127.0.0.1 - - [30/Nov/2025 16:53:59] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:54:03,309 INFO 127.0.0.1 - - [30/Nov/2025 16:54:03] "GET / HTTP/1.1" 200 -
+2025-11-30 16:54:03,381 INFO 127.0.0.1 - - [30/Nov/2025 16:54:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:54:04,311 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 53}
+2025-11-30 16:54:04,312 INFO 127.0.0.1 - - [30/Nov/2025 16:54:04] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:54:04,403 INFO 127.0.0.1 - - [30/Nov/2025 16:54:04] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:54:05,457 INFO 127.0.0.1 - - [30/Nov/2025 16:54:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-30 16:54:09,361 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 81}
+2025-11-30 16:54:09,363 INFO 127.0.0.1 - - [30/Nov/2025 16:54:09] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:54:09,502 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 92}
+2025-11-30 16:54:09,503 INFO 127.0.0.1 - - [30/Nov/2025 16:54:09] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:54:14,338 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 55}
+2025-11-30 16:54:14,346 INFO 127.0.0.1 - - [30/Nov/2025 16:54:14] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:54:14,430 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 37}
+2025-11-30 16:54:14,430 INFO 127.0.0.1 - - [30/Nov/2025 16:54:14] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:54:19,305 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 42}
+2025-11-30 16:54:19,310 INFO 127.0.0.1 - - [30/Nov/2025 16:54:19] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:54:19,446 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 54}
+2025-11-30 16:54:19,446 INFO 127.0.0.1 - - [30/Nov/2025 16:54:19] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:54:24,292 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 31}
+2025-11-30 16:54:24,293 INFO 127.0.0.1 - - [30/Nov/2025 16:54:24] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:54:25,295 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 25}
+2025-11-30 16:54:25,297 INFO 127.0.0.1 - - [30/Nov/2025 16:54:25] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:55:48,229 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-30 16:55:48,229 INFO [33mPress CTRL+C to quit[0m
+2025-11-30 16:55:48,234 INFO  * Restarting with stat
+2025-11-30 16:56:02,442 WARNING  * Debugger is active!
+2025-11-30 16:56:02,447 INFO  * Debugger PIN: 449-435-680
+2025-11-30 16:56:03,454 INFO 127.0.0.1 - - [30/Nov/2025 16:56:03] "GET / HTTP/1.1" 200 -
+2025-11-30 16:56:03,585 INFO 127.0.0.1 - - [30/Nov/2025 16:56:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:56:04,498 INFO pred {'quality': 'No face', 'label': 'Unable to assess', 'confidence': 0.0, 'scores': {}, 'explain': {}, 'latency_ms': 49}
+2025-11-30 16:56:04,500 INFO 127.0.0.1 - - [30/Nov/2025 16:56:04] "GET /predict HTTP/1.1" 200 -
+2025-11-30 16:56:04,583 INFO 127.0.0.1 - - [30/Nov/2025 16:56:04] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:56:04,604 INFO 127.0.0.1 - - [30/Nov/2025 16:56:04] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:56:10,311 INFO 127.0.0.1 - - [30/Nov/2025 16:56:10] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:56:15,325 INFO 127.0.0.1 - - [30/Nov/2025 16:56:15] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:56:20,374 INFO 127.0.0.1 - - [30/Nov/2025 16:56:20] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:56:25,432 INFO 127.0.0.1 - - [30/Nov/2025 16:56:25] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:56:30,379 INFO 127.0.0.1 - - [30/Nov/2025 16:56:30] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:56:35,408 INFO 127.0.0.1 - - [30/Nov/2025 16:56:35] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:56:40,350 INFO 127.0.0.1 - - [30/Nov/2025 16:56:40] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:56:42,271 INFO 127.0.0.1 - - [30/Nov/2025 16:56:42] "GET / HTTP/1.1" 200 -
+2025-11-30 16:56:42,318 INFO 127.0.0.1 - - [30/Nov/2025 16:56:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:56:43,348 INFO 127.0.0.1 - - [30/Nov/2025 16:56:43] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:56:45,377 INFO 127.0.0.1 - - [30/Nov/2025 16:56:45] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:56:49,310 INFO 127.0.0.1 - - [30/Nov/2025 16:56:49] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:56:50,351 INFO 127.0.0.1 - - [30/Nov/2025 16:56:50] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:56:54,316 INFO 127.0.0.1 - - [30/Nov/2025 16:56:54] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:56:55,341 INFO 127.0.0.1 - - [30/Nov/2025 16:56:55] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:56:59,354 INFO 127.0.0.1 - - [30/Nov/2025 16:56:59] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:57:00,316 INFO 127.0.0.1 - - [30/Nov/2025 16:57:00] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:57:04,308 INFO 127.0.0.1 - - [30/Nov/2025 16:57:04] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:57:05,311 INFO 127.0.0.1 - - [30/Nov/2025 16:57:05] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:57:09,354 INFO 127.0.0.1 - - [30/Nov/2025 16:57:09] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:57:09,593 INFO 127.0.0.1 - - [30/Nov/2025 16:57:09] "GET / HTTP/1.1" 200 -
+2025-11-30 16:57:09,636 INFO 127.0.0.1 - - [30/Nov/2025 16:57:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 16:57:10,388 INFO 127.0.0.1 - - [30/Nov/2025 16:57:10] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:57:10,685 INFO 127.0.0.1 - - [30/Nov/2025 16:57:10] "GET /video_feed HTTP/1.1" 200 -
+2025-11-30 16:57:15,332 INFO 127.0.0.1 - - [30/Nov/2025 16:57:15] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:57:15,719 INFO 127.0.0.1 - - [30/Nov/2025 16:57:15] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:57:21,313 INFO 127.0.0.1 - - [30/Nov/2025 16:57:21] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:57:26,326 INFO 127.0.0.1 - - [30/Nov/2025 16:57:26] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:57:31,327 INFO 127.0.0.1 - - [30/Nov/2025 16:57:31] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:57:36,333 INFO 127.0.0.1 - - [30/Nov/2025 16:57:36] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:57:40,363 INFO 127.0.0.1 - - [30/Nov/2025 16:57:40] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:57:41,404 INFO 127.0.0.1 - - [30/Nov/2025 16:57:41] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:57:46,346 INFO 127.0.0.1 - - [30/Nov/2025 16:57:46] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:57:51,344 INFO 127.0.0.1 - - [30/Nov/2025 16:57:51] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:57:56,385 INFO 127.0.0.1 - - [30/Nov/2025 16:57:56] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:58:01,486 INFO 127.0.0.1 - - [30/Nov/2025 16:58:01] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:58:06,416 INFO 127.0.0.1 - - [30/Nov/2025 16:58:06] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:58:11,392 INFO 127.0.0.1 - - [30/Nov/2025 16:58:11] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:58:16,336 INFO 127.0.0.1 - - [30/Nov/2025 16:58:16] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2025-11-30 16:58:19,079 INFO  * Detected change in 'C:\\Users\\Dell\\Downloads\\suman mam\\app.py', reloading
+2025-11-30 16:58:20,518 INFO  * Restarting with stat
+2025-11-30 16:58:42,104 WARNING  * Debugger is active!
+2025-11-30 16:58:42,108 INFO  * Debugger PIN: 449-435-680
+2025-11-30 16:58:43,875 INFO 127.0.0.1 - - [30/Nov/2025 16:58:43] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-11-30 16:58:43,880 INFO 127.0.0.1 - - [30/Nov/2025 16:58:43] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-11-30 16:59:39,062 INFO  * Detected change in 'C:\\Users\\Dell\\Downloads\\suman mam\\app.py', reloading
+2025-11-30 16:59:39,912 INFO  * Restarting with stat
+2025-11-30 16:59:54,637 WARNING  * Debugger is active!
+2025-11-30 16:59:54,641 INFO  * Debugger PIN: 449-435-680
+2025-11-30 16:59:56,816 INFO 127.0.0.1 - - [30/Nov/2025 16:59:56] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-11-30 16:59:56,821 INFO 127.0.0.1 - - [30/Nov/2025 16:59:56] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-11-30 17:00:00,715 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-30 17:00:00,715 INFO [33mPress CTRL+C to quit[0m
+2025-11-30 17:00:00,718 INFO  * Restarting with stat
+2025-11-30 17:00:06,294 INFO 127.0.0.1 - - [30/Nov/2025 17:00:06] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-11-30 17:00:07,913 INFO 127.0.0.1 - - [30/Nov/2025 17:00:07] "GET / HTTP/1.1" 200 -
+2025-11-30 17:00:08,136 INFO 127.0.0.1 - - [30/Nov/2025 17:00:08] "GET /static/style.css HTTP/1.1" 200 -
+2025-11-30 17:00:24,833 WARNING  * Debugger is active!
+2025-11-30 17:00:24,833 INFO  * Debugger PIN: 449-435-680
+2025-11-30 17:00:39,281 INFO 127.0.0.1 - - [30/Nov/2025 17:00:39] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-11-30 17:01:39,561 INFO 127.0.0.1 - - [30/Nov/2025 17:01:39] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-11-30 17:02:20,476 INFO 127.0.0.1 - - [30/Nov/2025 17:02:20] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-11-30 17:02:25,288 INFO 127.0.0.1 - - [30/Nov/2025 17:02:25] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-11-30 17:02:30,264 INFO 127.0.0.1 - - [30/Nov/2025 17:02:30] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-11-30 17:02:35,261 INFO 127.0.0.1 - - [30/Nov/2025 17:02:35] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-11-30 17:02:40,261 INFO 127.0.0.1 - - [30/Nov/2025 17:02:40] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-11-30 17:02:45,257 INFO 127.0.0.1 - - [30/Nov/2025 17:02:45] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-11-30 17:02:50,299 INFO 127.0.0.1 - - [30/Nov/2025 17:02:50] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-11-30 17:02:55,275 INFO 127.0.0.1 - - [30/Nov/2025 17:02:55] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-11-30 17:03:00,255 INFO 127.0.0.1 - - [30/Nov/2025 17:03:00] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-11-30 17:03:05,259 INFO 127.0.0.1 - - [30/Nov/2025 17:03:05] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-11-30 17:03:10,264 INFO 127.0.0.1 - - [30/Nov/2025 17:03:10] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-11-30 17:03:15,267 INFO 127.0.0.1 - - [30/Nov/2025 17:03:15] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-11-30 17:03:20,275 INFO 127.0.0.1 - - [30/Nov/2025 17:03:20] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-11-30 17:03:39,266 INFO 127.0.0.1 - - [30/Nov/2025 17:03:39] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-11-30 17:04:39,268 INFO 127.0.0.1 - - [30/Nov/2025 17:04:39] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-11-30 17:05:39,284 INFO 127.0.0.1 - - [30/Nov/2025 17:05:39] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-11-30 17:06:39,283 INFO 127.0.0.1 - - [30/Nov/2025 17:06:39] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-11-30 17:07:02,799 INFO  * Detected change in 'C:\\Users\\Dell\\Downloads\\suman mam\\utils\\analyzer.py', reloading
+2025-11-30 17:10:31,266 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-30 17:10:31,268 INFO [33mPress CTRL+C to quit[0m
+2025-11-30 17:10:31,272 INFO  * Restarting with stat
+2025-11-30 17:10:50,203 WARNING  * Debugger is active!
+2025-11-30 17:10:50,218 INFO  * Debugger PIN: 449-435-680
+2025-11-30 17:10:58,681 INFO 127.0.0.1 - - [30/Nov/2025 17:10:58] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-11-30 17:11:08,167 INFO 127.0.0.1 - - [30/Nov/2025 17:11:08] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-11-30 17:11:10,075 INFO 127.0.0.1 - - [30/Nov/2025 17:11:10] "[33mGET /predict HTTP/1.1[0m" 404 -
+2025-11-30 17:11:10,397 INFO 127.0.0.1 - - [30/Nov/2025 17:11:10] "GET / HTTP/1.1" 200 -
+2025-11-30 17:11:11,805 INFO 127.0.0.1 - - [30/Nov/2025 17:11:11] "GET /static/style.css HTTP/1.1" 200 -
+2025-11-30 17:15:40,691 ERROR Error analyzing WIN_20221108_13_11_55_Pro.jpg: [WinError 33] The process cannot access the file because another process has locked a portion of the file
+2025-11-30 17:15:40,911 INFO 127.0.0.1 - - [30/Nov/2025 17:15:40] "POST /upload HTTP/1.1" 200 -
+2025-11-30 17:15:49,744 INFO Analyzed WIN_20221108_13_11_55_Pro.jpg: Disease=Healthy, Emotion=neutral
+2025-11-30 17:15:49,807 ERROR Error analyzing WIN_20221108_13_11_55_Pro.jpg: Could not build url for endpoint 'display_image' with values ['filename']. Did you mean 'static' instead?
+2025-11-30 17:15:49,826 INFO 127.0.0.1 - - [30/Nov/2025 17:15:49] "POST /upload HTTP/1.1" 200 -
+2025-11-30 17:15:51,500 INFO 127.0.0.1 - - [30/Nov/2025 17:15:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 17:16:00,155 INFO Analyzed ayush11pic.jpg: Disease=Possible Cyanosis (bluish tint detected), Emotion=neutral
+2025-11-30 17:16:00,172 ERROR Error analyzing ayush11pic.jpg: Could not build url for endpoint 'display_image' with values ['filename']. Did you mean 'static' instead?
+2025-11-30 17:16:00,179 INFO 127.0.0.1 - - [30/Nov/2025 17:16:00] "POST /upload HTTP/1.1" 200 -
+2025-11-30 17:16:01,488 INFO 127.0.0.1 - - [30/Nov/2025 17:16:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-30 17:21:53,389 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-30 17:21:53,389 INFO [33mPress CTRL+C to quit[0m
+2025-11-30 17:21:53,400 INFO  * Restarting with stat
+2025-11-30 17:22:01,253 WARNING  * Debugger is active!
+2025-11-30 17:22:01,263 INFO  * Debugger PIN: 449-435-680
+2025-11-30 17:22:55,208 INFO Analyzed ayush11pic.jpg: Disease=Possible Cyanosis (bluish tint detected)
+2025-11-30 17:22:56,044 INFO 127.0.0.1 - - [30/Nov/2025 17:22:56] "POST /upload HTTP/1.1" 200 -
+2025-11-30 17:22:56,283 INFO Analyzed ayush11pic.jpg: Disease=Possible Cyanosis (bluish tint detected)
+2025-11-30 17:22:56,300 INFO 127.0.0.1 - - [30/Nov/2025 17:22:56] "POST /upload HTTP/1.1" 200 -
+2025-11-30 17:22:57,911 INFO 127.0.0.1 - - [30/Nov/2025 17:22:57] "GET /uploads/ayush11pic.jpg HTTP/1.1" 200 -
+2025-11-30 17:26:36,264 INFO Analyzed vitiligo-1669195195.jpg: Disease=Healthy
+2025-11-30 17:26:36,324 INFO 127.0.0.1 - - [30/Nov/2025 17:26:36] "POST /upload HTTP/1.1" 200 -
+2025-11-30 17:26:36,409 INFO 127.0.0.1 - - [30/Nov/2025 17:26:36] "GET /uploads/vitiligo-1669195195.jpg HTTP/1.1" 200 -
+2025-11-30 17:33:25,268 INFO  * Detected change in 'C:\\Users\\Dell\\Downloads\\suman mam\\utils\\analyzer.py', reloading
+2025-11-30 17:35:28,841 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-30 17:35:28,842 INFO [33mPress CTRL+C to quit[0m
+2025-11-30 17:35:28,845 INFO  * Restarting with stat
+2025-11-30 17:35:46,001 WARNING  * Debugger is active!
+2025-11-30 17:35:46,007 INFO  * Debugger PIN: 449-435-680
+2025-11-30 17:36:12,679 INFO Analyzed vitiligo-1669195195.jpg: Disease=Healthy
+2025-11-30 17:36:13,829 INFO 127.0.0.1 - - [30/Nov/2025 17:36:13] "POST /upload HTTP/1.1" 200 -
+2025-11-30 17:36:14,991 INFO 127.0.0.1 - - [30/Nov/2025 17:36:14] "GET /uploads/vitiligo-1669195195.jpg HTTP/1.1" 200 -
+2025-11-30 17:36:44,672 INFO Analyzed vitiligo-1669195195.jpg: Disease=Healthy
+2025-11-30 17:36:44,677 INFO 127.0.0.1 - - [30/Nov/2025 17:36:44] "POST /upload HTTP/1.1" 200 -
+2025-11-30 17:36:44,864 INFO 127.0.0.1 - - [30/Nov/2025 17:36:44] "GET /uploads/vitiligo-1669195195.jpg HTTP/1.1" 200 -
+2025-11-30 17:37:28,818 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-30 17:37:28,818 INFO [33mPress CTRL+C to quit[0m
+2025-11-30 17:37:28,824 INFO  * Restarting with stat
+2025-11-30 17:37:53,897 WARNING  * Debugger is active!
+2025-11-30 17:37:53,934 INFO  * Debugger PIN: 449-435-680
+2025-11-30 17:37:59,302 INFO 127.0.0.1 - - [30/Nov/2025 17:37:59] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2025-11-30 17:38:19,293 INFO Analyzed vitiligo-1669195195.jpg: Disease=Healthy
+2025-11-30 17:38:19,452 INFO 127.0.0.1 - - [30/Nov/2025 17:38:19] "POST /upload HTTP/1.1" 200 -
+2025-11-30 17:38:20,204 INFO 127.0.0.1 - - [30/Nov/2025 17:38:20] "GET /uploads/vitiligo-1669195195.jpg HTTP/1.1" 200 -
+2025-11-30 17:38:33,246 INFO 127.0.0.1 - - [30/Nov/2025 17:38:33] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2025-11-30 17:38:40,937 INFO 127.0.0.1 - - [30/Nov/2025 17:38:40] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2025-11-30 17:38:50,626 INFO Analyzed vitiligo-1669195195.jpg: Disease=Healthy
+2025-11-30 17:38:50,637 INFO 127.0.0.1 - - [30/Nov/2025 17:38:50] "POST /upload HTTP/1.1" 200 -
+2025-11-30 17:38:50,782 INFO 127.0.0.1 - - [30/Nov/2025 17:38:50] "GET /uploads/vitiligo-1669195195.jpg HTTP/1.1" 200 -
+2025-11-30 17:39:14,821 INFO Analyzed vitiligo-1669195195.jpg: Disease=Healthy
+2025-11-30 17:39:14,825 INFO 127.0.0.1 - - [30/Nov/2025 17:39:14] "POST /upload HTTP/1.1" 200 -
+2025-11-30 17:39:14,911 INFO 127.0.0.1 - - [30/Nov/2025 17:39:14] "GET /uploads/vitiligo-1669195195.jpg HTTP/1.1" 200 -
+2025-11-30 17:41:34,358 INFO  * Detected change in 'C:\\Users\\Dell\\Downloads\\suman mam\\utils\\analyzer.py', reloading
+2025-11-30 17:44:55,208 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.142.181.96:5000
+2025-11-30 17:44:55,209 INFO [33mPress CTRL+C to quit[0m
+2025-11-30 17:44:55,211 INFO  * Restarting with stat
+2025-11-30 17:45:07,497 WARNING  * Debugger is active!
+2025-11-30 17:45:07,505 INFO  * Debugger PIN: 449-435-680
+2025-11-30 17:45:11,459 INFO 127.0.0.1 - - [30/Nov/2025 17:45:11] "GET / HTTP/1.1" 200 -
+2025-11-30 17:45:51,075 INFO Analyzed vitiligo-1669195195.jpg: Primary Disease=Acne / Skin Lesions, Health Score=61
+2025-11-30 17:45:51,099 INFO 127.0.0.1 - - [30/Nov/2025 17:45:51] "POST /upload HTTP/1.1" 200 -
+2025-11-30 17:45:52,647 INFO 127.0.0.1 - - [30/Nov/2025 17:45:52] "GET /uploads/vitiligo-1669195195.jpg HTTP/1.1" 200 -
+2025-11-30 17:48:19,341 INFO Analyzed WIN_20221108_13_11_55_Pro.jpg: Primary Disease=Acne / Skin Lesions, Health Score=58
+2025-11-30 17:48:19,420 INFO 127.0.0.1 - - [30/Nov/2025 17:48:19] "POST /upload HTTP/1.1" 200 -
+2025-11-30 17:48:20,139 INFO 127.0.0.1 - - [30/Nov/2025 17:48:20] "GET /uploads/WIN_20221108_13_11_55_Pro.jpg HTTP/1.1" 200 -
+2025-11-30 17:54:57,789 INFO Analyzed Screenshot 2025-11-30 175408.png: Primary Disease=Jaundice (Liver Issue), Health Score=0
+2025-11-30 17:54:57,890 INFO 127.0.0.1 - - [30/Nov/2025 17:54:57] "POST /upload HTTP/1.1" 200 -
+2025-11-30 17:54:58,263 INFO 127.0.0.1 - - [30/Nov/2025 17:54:58] "GET /uploads/Screenshot%202025-11-30%20175408.png HTTP/1.1" 200 -
+2025-11-30 17:56:12,670 INFO Analyzed vitiligo-1669195195.jpg: Primary Disease=Acne / Skin Lesions, Health Score=61
+2025-11-30 17:56:12,670 INFO 127.0.0.1 - - [30/Nov/2025 17:56:12] "POST /upload HTTP/1.1" 200 -
+2025-11-30 17:56:12,766 INFO 127.0.0.1 - - [30/Nov/2025 17:56:12] "GET /uploads/vitiligo-1669195195.jpg HTTP/1.1" 200 -
+2025-11-30 17:58:30,647 INFO 127.0.0.1 - - [30/Nov/2025 17:58:30] "GET / HTTP/1.1" 200 -
